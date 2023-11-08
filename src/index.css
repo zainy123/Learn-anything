@@ -1,18 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Noto+Sans+Kawi&family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .bg_img {
-  background-image: url("./assets/container.jpg");
+  background-image: url("./assets/header.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 70vh;
 }
 
 .joke_image {
   background-image: url("./assets/joke.jpg");
 }
-
-
-
