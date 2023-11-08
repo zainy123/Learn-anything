@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg_img {
+  background-image: url("./assets/container.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.joke_image {
+  background-image: url("./assets/joke.jpg");
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px solid black;
+}
+
+.tooltip .tooltip_text {
+  visibility: hidden;
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltip_text{
+    visibility: visible;
+}
+
