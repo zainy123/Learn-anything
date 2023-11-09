@@ -15,7 +15,7 @@ const Home = () => {
             Best And Stunning Walpapers for your mobile and desktop
           </h1>
         </div>
-        <div className="xs:w-[40%] flex items-center relative text-gray-400 focus-within:text-bermuda">
+        <div className="w-[50%] flex items-center relative text-gray-400 focus-within:text-bermuda">
           <FiSearch className='absolute w-5 h-5 ml-3'/>
           <input
             className="pr-3 pl-10 py-2 w-full rounded-2xl border-none outline-none ring-2"
