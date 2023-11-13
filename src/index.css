@@ -4,6 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 .bg_img {
   background-image: url("./assets/header.svg");
   background-position: center;
@@ -14,4 +16,9 @@
 
 .joke_image {
   background-image: url("./assets/joke.jpg");
+}
+
+.bg_404{
+  background-image: url('./assets/home_container.jpg');
+  background-size: cover;
 }
